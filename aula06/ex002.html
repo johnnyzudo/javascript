@@ -8,7 +8,7 @@
     <style>
         body {
             background-color: rgb(105, 105, 173);
-            color: white;
+            color: white;   /* Comentário em CSS */
             font: normal 20pt Arial;
         }
 
@@ -18,13 +18,12 @@
     </style>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> <!-- Comentário em HTML -->
     <p>Já me livrei da maldição!</p>
 
     <script>
-        window.alert('Minha primeira mensgagem!')
-        window.confirm('Está gostando de JS?') // Janela com botão OK e Cancel
-        window.prompt('Qual seu nome?') // Vai perguntar o nome...
+        var nome = window.prompt('Qual seu nome?') // Vai perguntar o nome...
+        window.alert('É um grande prazer te conhecer, ' + nome + '!') // Concatenação
     </script>
 </body>
 </html>
