@@ -1,4 +1,6 @@
 addEventListener('click', botaoum)
+addEventListener('click', botaodois)
+addEventListener('click', botaotres)
 
 function botaoum() {
     window.alert('Você clicou no 1º Botão!')
