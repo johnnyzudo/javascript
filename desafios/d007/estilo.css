@@ -4,12 +4,16 @@ h1 {
     font: bolder 2.5em Arial;
 }
 
-button {
-
+h2 {
+    font: bolder 2.5em Arial;
 }
 
-p {
+button {
     font-size: 12pt;
     padding: 30px;
     display: inline;
+}
+
+p {
+    font: normal 1.25em Arial;
 }

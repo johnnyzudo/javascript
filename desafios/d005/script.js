@@ -1,7 +1,6 @@
 addEventListener('click', converter)
 
-let res = document.getElementById('res')
-res.style.backgroundColor = 'blue'
+let res = document.getElementById('conversor')
 
 function converter() {
     distancia = prompt('Digite a distância em metros (m).')
