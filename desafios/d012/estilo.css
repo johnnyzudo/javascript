@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+h1 {
+    font: bolder 2.5em Arial;
+}
+
+h2 {
+    font: bolder 2.5em Arial;
+}
+
+button {
+    font-size: 12pt;
+    padding: 30px;
+    display: inline;
+}
+
+p {
+    font: normal 1.25em Arial;
+}
